@@ -1,0 +1,20 @@
+# macOS
+.DS_Store
+*.DS_Store
+
+# COMSOL backup/cache
+*.mph.bak
+*.mph~
+*.mph.crash*
+
+# MATLAB artifacts
+*.asv
+
+# Python / Jupyter
+__pycache__/
+*.py[cod]
+.ipynb_checkpoints/
+*.pyc
+
+# Large data exports (aggiungi cartelle dati se necessario)
+# data/
