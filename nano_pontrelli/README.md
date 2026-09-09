@@ -1,22 +1,17 @@
 # Nano-contenitori di Pontrelli — Progetto di Modelli Fisiologici
 
-Simulazione del rilascio di farmaci da nano-contenitori sensibili al pH, basata sul modello di Pontrelli.
+Simulation of drug release from pH-sensitive nanocontainers, based on the Pontrelli model.
 
-## Contenuto del repository
+* Physiological models
+* Politecnico di Torino
+* Academic Year 2025/2026
 
-| File | Descrizione |
-|------|-------------|
-| `progetto3d_0401.mph` | Simulazione COMSOL 3D (versione del 04/01) |
-| `progettoR_2901.mph` | Simulazione COMSOL assialsimmetrica (versione del 29/01) |
-| `cleanind_data.ipynb` | Notebook Python per la ripulitura e l'analisi dei dati |
-| `massa_rilasciata2901.m` | Script MATLAB con i grafici della massa rilasciata |
 
-## Descrizione
+## Description
+The project investigates the diffusion and controlled release of a drug molecule from pH-sensitive polymeric nanocontainers. COMSOL simulations solve the diffusion-reaction equations within the nanoparticle domain, while the Python notebook processes the exported data and the MATLAB script generates the final plots.
 
-Il progetto studia la diffusione e il rilascio controllato di una molecola farmacologica da nano-contenitori polimerici sensibili al pH. Le simulazioni COMSOL risolvono le equazioni di diffusione-reazione nel dominio della nanoparticella, mentre il notebook Python elabora i dati esportati e lo script MATLAB produce i grafici finali.
+## Dependencies
 
-## Dipendenze
-
-- **COMSOL Multiphysics** >= 6.x (per aprire i file `.mph`)
-- **Python** >= 3.9 con `numpy`, `pandas`, `matplotlib` (per il notebook)
-- **MATLAB** >= R2022a (per lo script `.m`)
+- **COMSOL Multiphysics** >= 6.x (to open `.mph` files)
+- **Python** >= 3.9 with `numpy`, `pandas`, `matplotlib` (for the notebook)
+- **MATLAB** >= R2022a (for the `.m` script)
